@@ -1,0 +1,30 @@
+{
+  "name": "web-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "panda-prep": "panda codegen",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@babel/core": "^7.22.6",
+    "@pandacss/preset-panda": "^0.10.0",
+    "@pandacss/dev": "^0.10.0",
+    "@types/node": "20.5.0",
+    "@types/react": "18.2.20",
+    "@types/react-dom": "18.2.7",
+    "autoprefixer": "^10.4.13",
+    "babel-loader": "9.1.2",
+    "css-loader": "^6.8.1",
+    "next": "13.4.15",
+    "postcss-flexbugs-fixes": "^5.0.2",
+    "postcss-preset-env": "^9.0.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "ts-loader": "^9.4.4",
+    "typescript": "5.1.6"
+  }
+}

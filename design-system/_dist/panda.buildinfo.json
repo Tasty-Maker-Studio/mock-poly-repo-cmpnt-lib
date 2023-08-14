@@ -1,0 +1,5432 @@
+{
+  "css": [
+    {
+      "type": "object",
+      "name": "css",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "CallExpression",
+        "line": 31,
+        "column": 36
+      },
+      "data": [
+        {
+          "transition": "transform 0.6s cubic-bezier(0.87, 0, 0.13, 1) "
+        },
+        {
+          "transition": "transform 0.4s ease-out"
+        },
+        {
+          "transform": "translateX(0)"
+        },
+        {
+          "transform": "translateX(-100%)"
+        },
+        {}
+      ]
+    },
+    {
+      "type": "object",
+      "name": "css",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "CallExpression",
+        "line": 72,
+        "column": 20
+      },
+      "data": [
+        {
+          "width": "100%",
+          "height": "100%"
+        }
+      ]
+    },
+    {
+      "type": "object",
+      "name": "css",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "CallExpression",
+        "line": 89,
+        "column": 20
+      },
+      "data": [
+        {
+          "width": "100%",
+          "height": "100%"
+        }
+      ]
+    },
+    {
+      "type": "object",
+      "name": "css",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "CallExpression",
+        "line": 33,
+        "column": 18
+      },
+      "data": [
+        {
+          "width": "100%",
+          "height": "100%"
+        }
+      ]
+    },
+    {
+      "type": "object",
+      "name": "css",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "CallExpression",
+        "line": 25,
+        "column": 23
+      },
+      "data": [
+        {
+          "m": 15
+        }
+      ]
+    },
+    {
+      "type": "object",
+      "name": "css",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "CallExpression",
+        "line": 232,
+        "column": 26
+      },
+      "data": [
+        {
+          "width": "100%",
+          "height": "100%"
+        }
+      ]
+    }
+  ],
+  "cva": [],
+  "recipe": {
+    "button": [
+      {
+        "type": "jsx-recipe",
+        "name": "Button",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 264,
+          "column": 13
+        },
+        "data": [
+          {
+            "bg": "transparent",
+            "border": 0,
+            "p": 0,
+            "zIndex": 1,
+            "top": "50%",
+            "position": "absolute",
+            "transform": "translateY(-50%)",
+            "touchAction": "none",
+            "cursor": "pointer",
+            "visibility": "hidden",
+            "left": "0.5rem",
+            "variant": "icon"
+          }
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "Button",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 285,
+          "column": 13
+        },
+        "data": [
+          {
+            "bg": "transparent",
+            "border": 0,
+            "p": 0,
+            "zIndex": 1,
+            "top": "50%",
+            "right": "0.5rem",
+            "position": "absolute",
+            "transform": "translateY(-50%)",
+            "touchAction": "none",
+            "cursor": "pointer",
+            "visibility": "hidden",
+            "variant": "icon"
+          }
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "Button",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 76,
+          "column": 11
+        },
+        "data": [
+          {
+            "fill": "outlinereverse"
+          }
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "Button",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 48,
+          "column": 11
+        },
+        "data": [
+          {
+            "variant": "icon"
+          }
+        ]
+      },
+      {
+        "type": "recipe",
+        "name": "button",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "CallExpression",
+          "line": 34,
+          "column": 41
+        },
+        "data": [
+          {}
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "Button",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 37,
+          "column": 7
+        },
+        "data": [
+          {
+            "bg": "primary"
+          },
+          {
+            "bg": "transparent"
+          },
+          {
+            "touchAction": "manipulation",
+            "border": "none",
+            "h": "100px",
+            "p": "5px",
+            "m": 0,
+            "type": "button"
+          }
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "Button",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 66,
+          "column": 13
+        },
+        "data": [
+          {
+            "variant": "icon",
+            "paddingTop": "4px",
+            "color": "primary.950"
+          }
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "Button",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 92,
+          "column": 21
+        },
+        "data": [
+          {
+            "variant": "link",
+            "fontSize": "12px",
+            "fontWeight": "500",
+            "color": "primary.950"
+          }
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "Button",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 109,
+          "column": 19
+        },
+        "data": [
+          {
+            "variant": "icon",
+            "color": "primary.950"
+          }
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "Button",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 120,
+          "column": 19
+        },
+        "data": [
+          {
+            "variant": "icon",
+            "color": "primary.950"
+          }
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "Button",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 79,
+          "column": 9
+        },
+        "data": [
+          {
+            "variant": "icon",
+            "paddingTop": "4px"
+          }
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "Button",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 105,
+          "column": 17
+        },
+        "data": [
+          {
+            "variant": "link",
+            "fontSize": "12px",
+            "fontWeight": "500",
+            "color": "primary.950"
+          }
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "Button",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 122,
+          "column": 15
+        },
+        "data": [
+          {
+            "variant": "icon"
+          }
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "Button",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 133,
+          "column": 15
+        },
+        "data": [
+          {
+            "variant": "icon"
+          }
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "Button",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 49,
+          "column": 5
+        },
+        "data": [
+          {
+            "variant": "accent",
+            "fill": "outline"
+          }
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "Button",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 74,
+          "column": 7
+        },
+        "data": [
+          {
+            "variant": "secondary"
+          }
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "Button",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 87,
+          "column": 7
+        },
+        "data": [
+          {
+            "w": "500px"
+          }
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "Button",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 34,
+          "column": 11
+        },
+        "data": [
+          {}
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "Button",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 40,
+          "column": 11
+        },
+        "data": [
+          {}
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "Button",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 525,
+          "column": 15
+        },
+        "data": [
+          {
+            "variant": "primary"
+          }
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "Button",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 533,
+          "column": 15
+        },
+        "data": [
+          {
+            "variant": "secondary"
+          }
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "Button",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 541,
+          "column": 15
+        },
+        "data": [
+          {
+            "variant": "tertiary"
+          }
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "Button",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 549,
+          "column": 15
+        },
+        "data": [
+          {
+            "variant": "accent"
+          }
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "Button",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 557,
+          "column": 15
+        },
+        "data": [
+          {
+            "variant": "info"
+          }
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "Button",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 565,
+          "column": 15
+        },
+        "data": [
+          {
+            "variant": "danger"
+          }
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "Button",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 574,
+          "column": 17
+        },
+        "data": [
+          {
+            "variant": "link"
+          }
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "Button",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 585,
+          "column": 15
+        },
+        "data": [
+          {
+            "variant": "icon"
+          }
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "Button",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 595,
+          "column": 15
+        },
+        "data": [
+          {
+            "variant": "primary",
+            "shape": "rounded"
+          }
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "Button",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 605,
+          "column": 15
+        },
+        "data": [
+          {
+            "variant": "secondary",
+            "shape": "rounded"
+          }
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "Button",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 615,
+          "column": 15
+        },
+        "data": [
+          {
+            "variant": "tertiary",
+            "shape": "rounded"
+          }
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "Button",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 625,
+          "column": 15
+        },
+        "data": [
+          {
+            "variant": "accent",
+            "shape": "rounded"
+          }
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "Button",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 635,
+          "column": 15
+        },
+        "data": [
+          {
+            "variant": "info",
+            "shape": "rounded"
+          }
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "Button",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 645,
+          "column": 15
+        },
+        "data": [
+          {
+            "variant": "danger",
+            "shape": "rounded"
+          }
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "Button",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 656,
+          "column": 17
+        },
+        "data": [
+          {
+            "variant": "primary",
+            "fill": "outline"
+          }
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "Button",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 668,
+          "column": 17
+        },
+        "data": [
+          {
+            "variant": "secondary",
+            "fill": "outline"
+          }
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "Button",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 680,
+          "column": 17
+        },
+        "data": [
+          {
+            "variant": "tertiary",
+            "fill": "outline"
+          }
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "Button",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 692,
+          "column": 17
+        },
+        "data": [
+          {
+            "variant": "accent",
+            "fill": "outline"
+          }
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "Button",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 704,
+          "column": 17
+        },
+        "data": [
+          {
+            "variant": "info",
+            "fill": "outline"
+          }
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "Button",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 716,
+          "column": 17
+        },
+        "data": [
+          {
+            "variant": "danger",
+            "fill": "outline"
+          }
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "Button",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 728,
+          "column": 17
+        },
+        "data": [
+          {
+            "variant": "primary",
+            "shape": "rounded",
+            "fill": "outline"
+          }
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "Button",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 740,
+          "column": 17
+        },
+        "data": [
+          {
+            "variant": "secondary",
+            "shape": "rounded",
+            "fill": "outline"
+          }
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "Button",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 750,
+          "column": 17
+        },
+        "data": [
+          {
+            "variant": "tertiary",
+            "shape": "rounded",
+            "fill": "outline"
+          }
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "Button",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 760,
+          "column": 17
+        },
+        "data": [
+          {
+            "variant": "accent",
+            "shape": "rounded",
+            "fill": "outline"
+          }
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "Button",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 770,
+          "column": 17
+        },
+        "data": [
+          {
+            "variant": "info",
+            "shape": "rounded",
+            "fill": "outline"
+          }
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "Button",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 780,
+          "column": 17
+        },
+        "data": [
+          {
+            "variant": "danger",
+            "shape": "rounded",
+            "fill": "outline"
+          }
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "Button",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 790,
+          "column": 17
+        },
+        "data": [
+          {
+            "variant": "primary",
+            "shape": "square",
+            "fill": "outlinereverse"
+          }
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "Button",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 800,
+          "column": 17
+        },
+        "data": [
+          {
+            "variant": "secondary",
+            "shape": "square",
+            "fill": "outlinereverse"
+          }
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "Button",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 814,
+          "column": 17
+        },
+        "data": [
+          {
+            "variant": "tertiary",
+            "shape": "square",
+            "fill": "outlinereverse"
+          }
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "Button",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 824,
+          "column": 17
+        },
+        "data": [
+          {
+            "variant": "accent",
+            "shape": "square",
+            "fill": "outlinereverse"
+          }
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "Button",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 834,
+          "column": 17
+        },
+        "data": [
+          {
+            "variant": "info",
+            "shape": "square",
+            "fill": "outlinereverse"
+          }
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "Button",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 844,
+          "column": 17
+        },
+        "data": [
+          {
+            "variant": "danger",
+            "shape": "square",
+            "fill": "outlinereverse"
+          }
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "Button",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 854,
+          "column": 17
+        },
+        "data": [
+          {
+            "variant": "primary",
+            "shape": "rounded",
+            "fill": "outlinereverse"
+          }
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "Button",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 864,
+          "column": 17
+        },
+        "data": [
+          {
+            "variant": "secondary",
+            "shape": "rounded",
+            "fill": "outlinereverse"
+          }
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "Button",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 878,
+          "column": 17
+        },
+        "data": [
+          {
+            "variant": "tertiary",
+            "shape": "rounded",
+            "fill": "outlinereverse"
+          }
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "Button",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 892,
+          "column": 17
+        },
+        "data": [
+          {
+            "variant": "accent",
+            "shape": "rounded",
+            "fill": "outlinereverse"
+          }
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "Button",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 902,
+          "column": 17
+        },
+        "data": [
+          {
+            "variant": "info",
+            "shape": "rounded",
+            "fill": "outlinereverse"
+          }
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "Button",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 912,
+          "column": 17
+        },
+        "data": [
+          {
+            "variant": "danger",
+            "shape": "rounded",
+            "fill": "outlinereverse"
+          }
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "Button",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 97,
+          "column": 9
+        },
+        "data": [
+          {
+            "variant": "primary"
+          }
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "Button",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 150,
+          "column": 9
+        },
+        "data": [
+          {
+            "variant": "primary"
+          }
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "Button",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 158,
+          "column": 9
+        },
+        "data": [
+          {
+            "variant": "primary"
+          }
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "Button",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 191,
+          "column": 19
+        },
+        "data": [
+          {
+            "variant": "link",
+            "fontSize": "32px",
+            "fontWeight": "500",
+            "color": "gray.300"
+          }
+        ]
+      }
+    ],
+    "cookieBar": [
+      {
+        "type": "recipe",
+        "name": "cookieBar",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "CallExpression",
+          "line": 52,
+          "column": 23
+        },
+        "data": [
+          {}
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "CookieBar",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxSelfClosingElement",
+          "line": 20,
+          "column": 17
+        },
+        "data": [
+          {
+            "variant": "primary"
+          }
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "CookieBar",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxSelfClosingElement",
+          "line": 24,
+          "column": 17
+        },
+        "data": [
+          {
+            "variant": "secondary"
+          }
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "CookieBar",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxSelfClosingElement",
+          "line": 28,
+          "column": 17
+        },
+        "data": [
+          {
+            "variant": "tertiary"
+          }
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "CookieBar",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxSelfClosingElement",
+          "line": 32,
+          "column": 17
+        },
+        "data": [
+          {
+            "variant": "accent"
+          }
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "CookieBar",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxSelfClosingElement",
+          "line": 36,
+          "column": 17
+        },
+        "data": [
+          {
+            "variant": "info"
+          }
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "CookieBar",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxSelfClosingElement",
+          "line": 40,
+          "column": 17
+        },
+        "data": [
+          {
+            "variant": "danger"
+          }
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "CookieBar",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxSelfClosingElement",
+          "line": 79,
+          "column": 15
+        },
+        "data": [
+          {
+            "variant": "primary"
+          }
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "CookieBar",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxSelfClosingElement",
+          "line": 85,
+          "column": 15
+        },
+        "data": [
+          {
+            "variant": "secondary"
+          }
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "CookieBar",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxSelfClosingElement",
+          "line": 91,
+          "column": 15
+        },
+        "data": [
+          {
+            "variant": "tertiary"
+          }
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "CookieBar",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxSelfClosingElement",
+          "line": 97,
+          "column": 15
+        },
+        "data": [
+          {
+            "variant": "accent"
+          }
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "CookieBar",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxSelfClosingElement",
+          "line": 103,
+          "column": 15
+        },
+        "data": [
+          {
+            "variant": "info"
+          }
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "CookieBar",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxSelfClosingElement",
+          "line": 109,
+          "column": 15
+        },
+        "data": [
+          {
+            "variant": "danger"
+          }
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "CookieBar",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxSelfClosingElement",
+          "line": 47,
+          "column": 7
+        },
+        "data": [
+          {
+            "variant": "primary"
+          }
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "CookieBar",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxSelfClosingElement",
+          "line": 128,
+          "column": 9
+        },
+        "data": [
+          {
+            "variant": "primary"
+          }
+        ]
+      }
+    ],
+    "header": [
+      {
+        "type": "jsx-recipe",
+        "name": "Header",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 61,
+          "column": 11
+        },
+        "data": [
+          {
+            "textAlign": "left",
+            "fontSize": "lg",
+            "marginBottom": "10px"
+          }
+        ]
+      },
+      {
+        "type": "recipe",
+        "name": "header",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "CallExpression",
+          "line": 26,
+          "column": 41
+        },
+        "data": [
+          {}
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "Header",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 33,
+          "column": 7
+        },
+        "data": [
+          {
+            "type": "h2",
+            "fontSize": "7xl",
+            "color": "purple.500"
+          }
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "Header",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 36,
+          "column": 7
+        },
+        "data": [
+          {
+            "type": "h1",
+            "fontSize": "xl",
+            "color": "blue.700"
+          }
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "Header",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 39,
+          "column": 7
+        },
+        "data": [
+          {
+            "type": "h4",
+            "color": "red.700"
+          }
+        ]
+      }
+    ],
+    "text": [
+      {
+        "type": "jsx-recipe",
+        "name": "Text",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 64,
+          "column": 11
+        },
+        "data": [
+          {
+            "textAlign": "left",
+            "lineHeight": "1",
+            "fontSize": "sm",
+            "marginTop": "10px"
+          }
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "Text",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 40,
+          "column": 13
+        },
+        "data": [
+          {
+            "color": "#222",
+            "fontWeight": "bold",
+            "fontSize": "20px"
+          }
+        ]
+      },
+      {
+        "type": "recipe",
+        "name": "text",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "CallExpression",
+          "line": 22,
+          "column": 36
+        },
+        "data": [
+          {}
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "Text",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 114,
+          "column": 13
+        },
+        "data": [
+          {
+            "size": "3xl",
+            "lineClamp": 2,
+            "pl": "5rem",
+            "pr": "5rem"
+          }
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "Text",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 170,
+          "column": 11
+        },
+        "data": [
+          {
+            "size": "sm",
+            "color": "neutral.50",
+            "bg": "indigo.500",
+            "variant": "right"
+          }
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "Text",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 210,
+          "column": 11
+        },
+        "data": [
+          {
+            "size": "3xl",
+            "color": "neutral.50",
+            "bg": "blue.500"
+          }
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "Text",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 30,
+          "column": 7
+        },
+        "data": [
+          {
+            "size": "7xl",
+            "color": "purple.500"
+          }
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "Text",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 33,
+          "column": 7
+        },
+        "data": [
+          {
+            "size": "6xl",
+            "bg": "green.100",
+            "textAlign": "right"
+          }
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "Text",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 36,
+          "column": 7
+        },
+        "data": [
+          {
+            "size": "5xl"
+          }
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "Text",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 37,
+          "column": 7
+        },
+        "data": [
+          {
+            "size": "4xl",
+            "lineClamp": 2
+          }
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "Text",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 42,
+          "column": 7
+        },
+        "data": [
+          {
+            "size": "3xl"
+          }
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "Text",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 43,
+          "column": 7
+        },
+        "data": [
+          {
+            "size": "2xl"
+          }
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "Text",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 44,
+          "column": 7
+        },
+        "data": [
+          {
+            "size": "xl"
+          }
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "Text",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 45,
+          "column": 7
+        },
+        "data": [
+          {
+            "size": "lg",
+            "bg": "blue.500"
+          }
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "Text",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 48,
+          "column": 7
+        },
+        "data": [
+          {
+            "size": "md",
+            "fontStyle": "bold"
+          }
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "Text",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 51,
+          "column": 7
+        },
+        "data": [
+          {
+            "size": "sm",
+            "fontStyle": "italic"
+          }
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "Text",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 54,
+          "column": 7
+        },
+        "data": [
+          {
+            "size": "xs"
+          }
+        ]
+      }
+    ],
+    "navbar": [
+      {
+        "type": "recipe",
+        "name": "navbar",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "CallExpression",
+          "line": 27,
+          "column": 21
+        },
+        "data": [
+          {}
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "Navbar",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxSelfClosingElement",
+          "line": 45,
+          "column": 7
+        },
+        "data": [
+          {
+            "variant": "primary",
+            "color": "primary.950"
+          }
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "Navbar",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 64,
+          "column": 9
+        },
+        "data": [
+          {
+            "variant": "primary"
+          }
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "Navbar",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxSelfClosingElement",
+          "line": 43,
+          "column": 7
+        },
+        "data": [
+          {
+            "variant": "primary",
+            "color": "primary.950"
+          }
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "Navbar",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxSelfClosingElement",
+          "line": 44,
+          "column": 7
+        },
+        "data": [
+          {
+            "variant": "secondary",
+            "color": "white"
+          }
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "Navbar",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxSelfClosingElement",
+          "line": 45,
+          "column": 7
+        },
+        "data": [
+          {
+            "variant": "tertiary",
+            "color": "secondary.600"
+          }
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "Navbar",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxSelfClosingElement",
+          "line": 46,
+          "column": 7
+        },
+        "data": [
+          {
+            "variant": "accent",
+            "color": "accent.50"
+          }
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "Navbar",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxSelfClosingElement",
+          "line": 47,
+          "column": 7
+        },
+        "data": [
+          {
+            "variant": "info",
+            "color": "accent.400"
+          }
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "Navbar",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxSelfClosingElement",
+          "line": 48,
+          "column": 7
+        },
+        "data": [
+          {
+            "variant": "danger",
+            "color": "rose.300"
+          }
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "Navbar",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxSelfClosingElement",
+          "line": 49,
+          "column": 7
+        },
+        "data": [
+          {
+            "variant": "transparent",
+            "color": "black"
+          }
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "Navbar",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 77,
+          "column": 5
+        },
+        "data": [
+          {}
+        ]
+      }
+    ],
+    "navbarLeft": [
+      {
+        "type": "recipe",
+        "name": "navbarLeft",
+        "box": {},
+        "data": [
+          {}
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "NavbarLeft",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 70,
+          "column": 11
+        },
+        "data": [
+          {}
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "NavbarLeft",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 83,
+          "column": 7
+        },
+        "data": [
+          {}
+        ]
+      }
+    ],
+    "navbarMiddle": [
+      {
+        "type": "recipe",
+        "name": "navbarMiddle",
+        "box": {},
+        "data": [
+          {}
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "NavbarMiddle",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 81,
+          "column": 11
+        },
+        "data": [
+          {}
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "NavbarMiddle",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 94,
+          "column": 7
+        },
+        "data": [
+          {}
+        ]
+      }
+    ],
+    "navbarMobileMenu": [
+      {
+        "type": "recipe",
+        "name": "navbarMobileMenu",
+        "box": {},
+        "data": [
+          {}
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "NavbarMobileMenu",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 65,
+          "column": 11
+        },
+        "data": [
+          {}
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "NavbarMobileMenu",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 78,
+          "column": 7
+        },
+        "data": [
+          {}
+        ]
+      }
+    ],
+    "navbarRight": [
+      {
+        "type": "recipe",
+        "name": "navbarRight",
+        "box": {},
+        "data": [
+          {}
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "NavbarRight",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 105,
+          "column": 11
+        },
+        "data": [
+          {}
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "NavbarRight",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 118,
+          "column": 7
+        },
+        "data": [
+          {}
+        ]
+      }
+    ],
+    "promoBar": [
+      {
+        "type": "recipe",
+        "name": "promoBar",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "CallExpression",
+          "line": 36,
+          "column": 23
+        },
+        "data": [
+          {}
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "PromoBar",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxSelfClosingElement",
+          "line": 46,
+          "column": 7
+        },
+        "data": [
+          {
+            "variant": "accent"
+          }
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "PromoBar",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxSelfClosingElement",
+          "line": 63,
+          "column": 9
+        },
+        "data": [
+          {
+            "variant": "accent"
+          }
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "PromoBar",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxSelfClosingElement",
+          "line": 17,
+          "column": 17
+        },
+        "data": [
+          {
+            "variant": "primary"
+          }
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "PromoBar",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxSelfClosingElement",
+          "line": 21,
+          "column": 17
+        },
+        "data": [
+          {
+            "variant": "secondary"
+          }
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "PromoBar",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxSelfClosingElement",
+          "line": 25,
+          "column": 17
+        },
+        "data": [
+          {
+            "variant": "tertiary"
+          }
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "PromoBar",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxSelfClosingElement",
+          "line": 29,
+          "column": 17
+        },
+        "data": [
+          {
+            "variant": "accent"
+          }
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "PromoBar",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxSelfClosingElement",
+          "line": 33,
+          "column": 17
+        },
+        "data": [
+          {
+            "variant": "info"
+          }
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "PromoBar",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxSelfClosingElement",
+          "line": 37,
+          "column": 17
+        },
+        "data": [
+          {
+            "variant": "danger"
+          }
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "PromoBar",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxSelfClosingElement",
+          "line": 76,
+          "column": 15
+        },
+        "data": [
+          {
+            "variant": "primary"
+          }
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "PromoBar",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxSelfClosingElement",
+          "line": 82,
+          "column": 15
+        },
+        "data": [
+          {
+            "variant": "secondary"
+          }
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "PromoBar",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxSelfClosingElement",
+          "line": 88,
+          "column": 15
+        },
+        "data": [
+          {
+            "variant": "tertiary"
+          }
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "PromoBar",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxSelfClosingElement",
+          "line": 94,
+          "column": 15
+        },
+        "data": [
+          {
+            "variant": "accent"
+          }
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "PromoBar",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxSelfClosingElement",
+          "line": 100,
+          "column": 15
+        },
+        "data": [
+          {
+            "variant": "info"
+          }
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "PromoBar",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxSelfClosingElement",
+          "line": 106,
+          "column": 15
+        },
+        "data": [
+          {
+            "variant": "danger"
+          }
+        ]
+      }
+    ],
+    "stickySection": [
+      {
+        "type": "recipe",
+        "name": "stickySection",
+        "box": {},
+        "data": [
+          {}
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "StickySection",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 62,
+          "column": 7
+        },
+        "data": [
+          {}
+        ]
+      }
+    ],
+    "toast": [
+      {
+        "type": "jsx-recipe",
+        "name": "Toast",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 39,
+          "column": 5
+        },
+        "data": [
+          {}
+        ]
+      }
+    ],
+    "dialog": [
+      {
+        "type": "jsx-recipe",
+        "name": "Dialog",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 60,
+          "column": 5
+        },
+        "data": [
+          {}
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "Dialog",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 74,
+          "column": 5
+        },
+        "data": [
+          {}
+        ]
+      }
+    ],
+    "lateralDrawer": [
+      {
+        "type": "recipe",
+        "name": "lateralDrawer",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "CallExpression",
+          "line": 62,
+          "column": 36
+        },
+        "data": [
+          {
+            "variant": "left",
+            "size": "sm"
+          }
+        ]
+      },
+      {
+        "type": "recipe",
+        "name": "lateralDrawer",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "CallExpression",
+          "line": 63,
+          "column": 37
+        },
+        "data": [
+          {
+            "variant": "left",
+            "size": "sm"
+          }
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "LateralDrawer",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 55,
+          "column": 7
+        },
+        "data": [
+          {
+            "variant": "left",
+            "size": "sm"
+          }
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "LateralDrawer",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 62,
+          "column": 7
+        },
+        "data": [
+          {
+            "variant": "right",
+            "size": "mid"
+          }
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "LateralDrawer",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxSelfClosingElement",
+          "line": 106,
+          "column": 7
+        },
+        "data": [
+          {}
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "LateralDrawer",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxSelfClosingElement",
+          "line": 167,
+          "column": 7
+        },
+        "data": [
+          {}
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "LateralDrawer",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxSelfClosingElement",
+          "line": 207,
+          "column": 7
+        },
+        "data": [
+          {}
+        ]
+      }
+    ],
+    "carousel": [
+      {
+        "type": "jsx-recipe",
+        "name": "Carousel",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 118,
+          "column": 7
+        },
+        "data": [
+          {}
+        ]
+      }
+    ],
+    "link": [
+      {
+        "type": "jsx-recipe",
+        "name": "Link",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 71,
+          "column": 13
+        },
+        "data": [
+          {}
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "Link",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 91,
+          "column": 19
+        },
+        "data": [
+          {}
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "Link",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 108,
+          "column": 17
+        },
+        "data": [
+          {}
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "Link",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 119,
+          "column": 17
+        },
+        "data": [
+          {}
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "Link",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 84,
+          "column": 9
+        },
+        "data": [
+          {}
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "Link",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 104,
+          "column": 15
+        },
+        "data": [
+          {}
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "Link",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 121,
+          "column": 13
+        },
+        "data": [
+          {}
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "Link",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 132,
+          "column": 13
+        },
+        "data": [
+          {}
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "Link",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 50,
+          "column": 7
+        },
+        "data": [
+          {}
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "Link",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 575,
+          "column": 19
+        },
+        "data": [
+          {}
+        ]
+      },
+      {
+        "type": "jsx-recipe",
+        "name": "Link",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 190,
+          "column": 17
+        },
+        "data": [
+          {}
+        ]
+      }
+    ],
+    "splashSection": [
+      {
+        "type": "jsx-recipe",
+        "name": "SplashSection",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxSelfClosingElement",
+          "line": 64,
+          "column": 5
+        },
+        "data": [
+          {}
+        ]
+      }
+    ]
+  },
+  "pattern": {
+    "Box": [
+      {
+        "type": "jsx-pattern",
+        "name": "Box",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 216,
+          "column": 7
+        },
+        "data": [
+          {
+            "flexDirection": "column"
+          },
+          {
+            "flexDirection": "column-reverse"
+          },
+          {
+            "flexDirection": "row"
+          },
+          {
+            "flexDirection": "row-reverse"
+          },
+          {
+            "p": "1.6rem"
+          },
+          {
+            "p": "auto"
+          },
+          {
+            "height": "auto"
+          },
+          {
+            "height": "100%"
+          },
+          {
+            "display": "flex"
+          }
+        ]
+      },
+      {
+        "type": "jsx-pattern",
+        "name": "Box",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 231,
+          "column": 11
+        },
+        "data": [
+          {
+            "w": "auto"
+          },
+          {
+            "w": "15%"
+          },
+          {
+            "minW": "auto"
+          },
+          {
+            "minW": "100px"
+          },
+          {
+            "mr": "0.5rem"
+          },
+          {
+            "mr": "auto"
+          },
+          {
+            "m": "0.9rem"
+          }
+        ]
+      },
+      {
+        "type": "jsx-pattern",
+        "name": "Box",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 247,
+          "column": 9
+        },
+        "data": [
+          {
+            "overflow": "hidden",
+            "height": "100%",
+            "width": "100%",
+            "position": "relative"
+          }
+        ]
+      },
+      {
+        "type": "jsx-pattern",
+        "name": "Box",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 52,
+          "column": 7
+        },
+        "data": [
+          {}
+        ]
+      },
+      {
+        "type": "jsx-pattern",
+        "name": "Box",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 53,
+          "column": 9
+        },
+        "data": [
+          {
+            "paddingLeft": "15px",
+            "display": "flex",
+            "flexDirection": "column",
+            "alignItems": "left",
+            "justifyContent": "center",
+            "height": "100%"
+          }
+        ]
+      },
+      {
+        "type": "jsx-pattern",
+        "name": "Box",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 68,
+          "column": 9
+        },
+        "data": [
+          {
+            "paddingRight": "25px",
+            "display": "flex",
+            "flexDirection": "column",
+            "alignItems": "center",
+            "justifyContent": "center",
+            "height": "100%"
+          }
+        ]
+      },
+      {
+        "type": "jsx-pattern",
+        "name": "Box",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 18,
+          "column": 9
+        },
+        "data": [
+          {
+            "p": "1.6rem"
+          }
+        ]
+      },
+      {
+        "type": "jsx-pattern",
+        "name": "Box",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 19,
+          "column": 13
+        },
+        "data": [
+          {
+            "h": "100%",
+            "w": "100%",
+            "bg": "white",
+            "objectFit": "cover",
+            "opacity": 1,
+            "zIndex": 1,
+            "position": "relative"
+          }
+        ]
+      },
+      {
+        "type": "jsx-pattern",
+        "name": "Box",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 29,
+          "column": 17
+        },
+        "data": [
+          {
+            "h": "100%",
+            "overflow": "hidden"
+          }
+        ]
+      },
+      {
+        "type": "jsx-pattern",
+        "name": "Box",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 30,
+          "column": 21
+        },
+        "data": [
+          {}
+        ]
+      },
+      {
+        "type": "jsx-pattern",
+        "name": "Box",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 27,
+          "column": 5
+        },
+        "data": [
+          {}
+        ]
+      },
+      {
+        "type": "jsx-pattern",
+        "name": "Box",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 10,
+          "column": 5
+        },
+        "data": [
+          {}
+        ]
+      },
+      {
+        "type": "jsx-pattern",
+        "name": "Box",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 7,
+          "column": 5
+        },
+        "data": [
+          {}
+        ]
+      },
+      {
+        "type": "jsx-pattern",
+        "name": "Box",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 10,
+          "column": 5
+        },
+        "data": [
+          {}
+        ]
+      },
+      {
+        "type": "jsx-pattern",
+        "name": "Box",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 10,
+          "column": 5
+        },
+        "data": [
+          {}
+        ]
+      },
+      {
+        "type": "jsx-pattern",
+        "name": "Box",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 36,
+          "column": 7
+        },
+        "data": [
+          {}
+        ]
+      },
+      {
+        "type": "jsx-pattern",
+        "name": "Box",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 28,
+          "column": 5
+        },
+        "data": [
+          {}
+        ]
+      },
+      {
+        "type": "jsx-pattern",
+        "name": "Box",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 30,
+          "column": 7
+        },
+        "data": [
+          {
+            "position": "absolute",
+            "bottom": "0",
+            "width": "98%"
+          }
+        ]
+      },
+      {
+        "type": "jsx-pattern",
+        "name": "Box",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 31,
+          "column": 9
+        },
+        "data": [
+          {
+            "padding": "3rem",
+            "position": "relative",
+            "display": "flex",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "fontFamily": "\"Nunito Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif"
+          }
+        ]
+      },
+      {
+        "type": "jsx-pattern",
+        "name": "Box",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 39,
+          "column": 11
+        },
+        "data": [
+          {}
+        ]
+      },
+      {
+        "type": "jsx-pattern",
+        "name": "Box",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 44,
+          "column": 11
+        },
+        "data": [
+          {
+            "display": "flex",
+            "flexDirection": "column",
+            "justifyContent": "center"
+          }
+        ]
+      },
+      {
+        "type": "jsx-pattern",
+        "name": "Box",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 10,
+          "column": 5
+        },
+        "data": [
+          {}
+        ]
+      },
+      {
+        "type": "jsx-pattern",
+        "name": "Box",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 83,
+          "column": 7
+        },
+        "data": [
+          {
+            "height": "100%"
+          },
+          {
+            "height": "auto"
+          },
+          {
+            "overflow": "hidden"
+          }
+        ]
+      },
+      {
+        "type": "jsx-pattern",
+        "name": "Box",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 117,
+          "column": 5
+        },
+        "data": [
+          {}
+        ]
+      },
+      {
+        "type": "jsx-pattern",
+        "name": "Box",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 55,
+          "column": 5
+        },
+        "data": [
+          {}
+        ]
+      },
+      {
+        "type": "jsx-pattern",
+        "name": "Box",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 84,
+          "column": 17
+        },
+        "data": [
+          {}
+        ]
+      },
+      {
+        "type": "jsx-pattern",
+        "name": "Box",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 107,
+          "column": 15
+        },
+        "data": [
+          {}
+        ]
+      },
+      {
+        "type": "jsx-pattern",
+        "name": "Box",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 114,
+          "column": 15
+        },
+        "data": [
+          {}
+        ]
+      },
+      {
+        "type": "jsx-pattern",
+        "name": "Box",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 130,
+          "column": 7
+        },
+        "data": [
+          {}
+        ]
+      },
+      {
+        "type": "jsx-pattern",
+        "name": "Box",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 61,
+          "column": 3
+        },
+        "data": [
+          {
+            "w": "500px"
+          }
+        ]
+      },
+      {
+        "type": "jsx-pattern",
+        "name": "Box",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 97,
+          "column": 13
+        },
+        "data": [
+          {}
+        ]
+      },
+      {
+        "type": "jsx-pattern",
+        "name": "Box",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 120,
+          "column": 11
+        },
+        "data": [
+          {}
+        ]
+      },
+      {
+        "type": "jsx-pattern",
+        "name": "Box",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 127,
+          "column": 11
+        },
+        "data": [
+          {}
+        ]
+      },
+      {
+        "type": "jsx-pattern",
+        "name": "Box",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 95,
+          "column": 5
+        },
+        "data": [
+          {
+            "h": "100vh",
+            "w": "90vw",
+            "p": "2rem"
+          }
+        ]
+      },
+      {
+        "type": "jsx-pattern",
+        "name": "Box",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 143,
+          "column": 5
+        },
+        "data": [
+          {
+            "h": "100vh",
+            "w": "90vw",
+            "p": "2rem"
+          }
+        ]
+      },
+      {
+        "type": "jsx-pattern",
+        "name": "Box",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 183,
+          "column": 15
+        },
+        "data": [
+          {}
+        ]
+      }
+    ],
+    "Flex": [
+      {
+        "type": "jsx-pattern",
+        "name": "Flex",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 254,
+          "column": 11
+        },
+        "data": [
+          {
+            "h": "auto"
+          },
+          {
+            "h": "100%"
+          },
+          {
+            "flexDirection": "row"
+          },
+          {
+            "flexDirection": "column"
+          },
+          {
+            "touchAction": "pan-y"
+          },
+          {
+            "touchAction": "pan-x"
+          },
+          {
+            "ml": "calc(1rem * -1)"
+          },
+          {
+            "backfaceVisibility": "hidden"
+          }
+        ]
+      },
+      {
+        "type": "jsx-pattern",
+        "name": "Flex",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 12,
+          "column": 7
+        },
+        "data": [
+          {
+            "flexGrow": 0,
+            "flexShrink": 0,
+            "flexBasis": "100%",
+            "position": "relative"
+          }
+        ]
+      },
+      {
+        "type": "jsx-pattern",
+        "name": "Flex",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 38,
+          "column": 25
+        },
+        "data": [
+          {
+            "flexDirection": "row",
+            "backfaceVisibility": "hidden",
+            "h": "auto",
+            "touchAction": "pan-up",
+            "ml": "calc(1rem * -2)"
+          }
+        ]
+      },
+      {
+        "type": "jsx-pattern",
+        "name": "Flex",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 45,
+          "column": 29
+        },
+        "data": [
+          {
+            "flexGrow": 0,
+            "flexShrink": 0,
+            "flexBasis": "100%",
+            "minWidth": 0,
+            "position": "relative"
+          }
+        ]
+      },
+      {
+        "type": "jsx-pattern",
+        "name": "Flex",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 48,
+          "column": 9
+        },
+        "data": [
+          {
+            "flexDirection": "column"
+          },
+          {
+            "flexDirection": "row"
+          },
+          {
+            "ml": "calc(0.8rem * -1)"
+          },
+          {
+            "mt": "calc(0.8rem * -1)"
+          },
+          {
+            "w": "100%)"
+          },
+          {
+            "h": "100%"
+          },
+          {
+            "h": "100px"
+          },
+          {
+            "p": "0.4em"
+          },
+          {
+            "p": "0"
+          },
+          {}
+        ]
+      },
+      {
+        "type": "jsx-pattern",
+        "name": "Flex",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 62,
+          "column": 7
+        },
+        "data": [
+          {
+            "ml": "calc(0.8rem * -1)"
+          },
+          {
+            "mt": "calc(0.8rem * -1)"
+          },
+          {
+            "w": "100%)"
+          },
+          {
+            "h": "100%"
+          },
+          {
+            "h": "auto"
+          },
+          {
+            "p": "0.4em"
+          },
+          {
+            "p": "0"
+          },
+          {
+            "flexDirection": "row",
+            "flexWrap": "wrap"
+          }
+        ]
+      },
+      {
+        "type": "jsx-pattern",
+        "name": "Flex",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 26,
+          "column": 5
+        },
+        "data": [
+          {
+            "mt": "15px"
+          },
+          {
+            "flexBasis": "10%"
+          },
+          {
+            "flexBasis": "15%"
+          },
+          {
+            "minHeight": "auto"
+          },
+          {
+            "minWidth": "auto"
+          },
+          {
+            "pt": "0.8rem"
+          },
+          {
+            "pl": "0.8rem"
+          },
+          {
+            "position": "relative",
+            "flexGrow": 0,
+            "flexShrink": 0
+          }
+        ]
+      },
+      {
+        "type": "jsx-pattern",
+        "name": "Flex",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 96,
+          "column": 7
+        },
+        "data": [
+          {
+            "direction": "row-reverse",
+            "alignItems": "left",
+            "zIndex": "9999"
+          }
+        ]
+      },
+      {
+        "type": "jsx-pattern",
+        "name": "Flex",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 144,
+          "column": 7
+        },
+        "data": [
+          {
+            "flexDirection": "row",
+            "alignItems": "left",
+            "justifyContent": "space-between",
+            "zIndex": "9999"
+          }
+        ]
+      }
+    ],
+    "VStack": [
+      {
+        "type": "jsx-pattern",
+        "name": "VStack",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 68,
+          "column": 13
+        },
+        "data": [
+          {
+            "position": "relative",
+            "h": "100%",
+            "gap": "6",
+            "mt": "4rem"
+          }
+        ]
+      },
+      {
+        "type": "jsx-pattern",
+        "name": "VStack",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 181,
+          "column": 11
+        },
+        "data": [
+          {
+            "h": "100%",
+            "gap": "6",
+            "mt": "12px"
+          }
+        ]
+      }
+    ],
+    "HStack": [
+      {
+        "type": "jsx-pattern",
+        "name": "HStack",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 82,
+          "column": 13
+        },
+        "data": [
+          {}
+        ]
+      },
+      {
+        "type": "jsx-pattern",
+        "name": "HStack",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 106,
+          "column": 13
+        },
+        "data": [
+          {}
+        ]
+      },
+      {
+        "type": "jsx-pattern",
+        "name": "HStack",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 95,
+          "column": 9
+        },
+        "data": [
+          {}
+        ]
+      },
+      {
+        "type": "jsx-pattern",
+        "name": "HStack",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 119,
+          "column": 9
+        },
+        "data": [
+          {}
+        ]
+      },
+      {
+        "type": "jsx-pattern",
+        "name": "HStack",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 113,
+          "column": 11
+        },
+        "data": [
+          {
+            "h": "100%",
+            "gap": "6",
+            "mt": "12px"
+          }
+        ]
+      },
+      {
+        "type": "jsx-pattern",
+        "name": "HStack",
+        "box": {
+          "type": "map",
+          "value": {},
+          "node": "JsxOpeningElement",
+          "line": 224,
+          "column": 11
+        },
+        "data": [
+          {
+            "h": "100%",
+            "gap": "6",
+            "mt": "12px"
+          }
+        ]
+      }
+    ]
+  },
+  "jsx": [
+    {
+      "type": "jsx",
+      "name": "ThumbCarousel",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "JsxOpeningElement",
+        "line": 237,
+        "column": 13
+      },
+      "data": [
+        {}
+      ]
+    },
+    {
+      "type": "jsx",
+      "name": "ChevronLeft",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "JsxSelfClosingElement",
+        "line": 281,
+        "column": 15
+      },
+      "data": [
+        {
+          "width": "3rem",
+          "height": "3rem",
+          "color": "white"
+        }
+      ]
+    },
+    {
+      "type": "jsx",
+      "name": "ChevronRight",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "JsxSelfClosingElement",
+        "line": 302,
+        "column": 15
+      },
+      "data": [
+        {
+          "width": "3rem",
+          "height": "3rem",
+          "color": "white"
+        }
+      ]
+    },
+    {
+      "type": "jsx",
+      "name": "LuX",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "JsxSelfClosingElement",
+        "line": 49,
+        "column": 13
+      },
+      "data": [
+        {
+          "size": "14px",
+          "display": "block"
+        }
+      ]
+    },
+    {
+      "type": "jsx-factory",
+      "name": "styled.button",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "JsxOpeningElement",
+        "line": 34,
+        "column": 5
+      },
+      "data": [
+        {}
+      ]
+    },
+    {
+      "type": "jsx",
+      "name": "Portal",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "JsxOpeningElement",
+        "line": 61,
+        "column": 7
+      },
+      "data": [
+        {}
+      ]
+    },
+    {
+      "type": "jsx",
+      "name": "DialogBackdrop",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "JsxSelfClosingElement",
+        "line": 62,
+        "column": 9
+      },
+      "data": [
+        {}
+      ]
+    },
+    {
+      "type": "jsx",
+      "name": "DialogContainer",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "JsxOpeningElement",
+        "line": 63,
+        "column": 9
+      },
+      "data": [
+        {}
+      ]
+    },
+    {
+      "type": "jsx",
+      "name": "DialogContent",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "JsxOpeningElement",
+        "line": 64,
+        "column": 11
+      },
+      "data": [
+        {}
+      ]
+    },
+    {
+      "type": "jsx",
+      "name": "DialogCloseTrigger",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "JsxOpeningElement",
+        "line": 66,
+        "column": 15
+      },
+      "data": [
+        {}
+      ]
+    },
+    {
+      "type": "jsx",
+      "name": "DialogTitle",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "JsxOpeningElement",
+        "line": 69,
+        "column": 30
+      },
+      "data": [
+        {}
+      ]
+    },
+    {
+      "type": "jsx",
+      "name": "DialogDescription",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "JsxOpeningElement",
+        "line": 71,
+        "column": 17
+      },
+      "data": [
+        {}
+      ]
+    },
+    {
+      "type": "jsx-factory",
+      "name": "styled.h1",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "JsxOpeningElement",
+        "line": 26,
+        "column": 9
+      },
+      "data": [
+        {}
+      ]
+    },
+    {
+      "type": "jsx-factory",
+      "name": "styled.h1",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "JsxOpeningElement",
+        "line": 50,
+        "column": 9
+      },
+      "data": [
+        {}
+      ]
+    },
+    {
+      "type": "jsx-factory",
+      "name": "styled.h2",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "JsxOpeningElement",
+        "line": 32,
+        "column": 9
+      },
+      "data": [
+        {}
+      ]
+    },
+    {
+      "type": "jsx-factory",
+      "name": "styled.h3",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "JsxOpeningElement",
+        "line": 38,
+        "column": 9
+      },
+      "data": [
+        {}
+      ]
+    },
+    {
+      "type": "jsx-factory",
+      "name": "styled.h4",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "JsxOpeningElement",
+        "line": 44,
+        "column": 9
+      },
+      "data": [
+        {}
+      ]
+    },
+    {
+      "type": "jsx-factory",
+      "name": "styled.p",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "JsxOpeningElement",
+        "line": 22,
+        "column": 5
+      },
+      "data": [
+        {}
+      ]
+    },
+    {
+      "type": "jsx",
+      "name": "CarouselProvider",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "JsxOpeningElement",
+        "line": 77,
+        "column": 5
+      },
+      "data": [
+        {}
+      ]
+    },
+    {
+      "type": "jsx",
+      "name": "ThumbSlide",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "JsxOpeningElement",
+        "line": 67,
+        "column": 5
+      },
+      "data": [
+        {}
+      ]
+    },
+    {
+      "type": "jsx",
+      "name": "Image",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "JsxSelfClosingElement",
+        "line": 68,
+        "column": 7
+      },
+      "data": [
+        {
+          "width": 0,
+          "height": 0,
+          "objectFit": "cover"
+        }
+      ]
+    },
+    {
+      "type": "jsx",
+      "name": "Image",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "JsxSelfClosingElement",
+        "line": 85,
+        "column": 7
+      },
+      "data": [
+        {
+          "width": 0,
+          "height": 0,
+          "objectFit": "cover"
+        }
+      ]
+    },
+    {
+      "type": "jsx",
+      "name": "CarouselSlide",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "JsxOpeningElement",
+        "line": 84,
+        "column": 5
+      },
+      "data": [
+        {}
+      ]
+    },
+    {
+      "type": "jsx",
+      "name": "Template",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "JsxSelfClosingElement",
+        "line": 127,
+        "column": 5
+      },
+      "data": [
+        {}
+      ]
+    },
+    {
+      "type": "jsx",
+      "name": "Template",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "JsxSelfClosingElement",
+        "line": 141,
+        "column": 5
+      },
+      "data": [
+        {}
+      ]
+    },
+    {
+      "type": "jsx",
+      "name": "Template",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "JsxSelfClosingElement",
+        "line": 156,
+        "column": 5
+      },
+      "data": [
+        {}
+      ]
+    },
+    {
+      "type": "jsx",
+      "name": "Template",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "JsxSelfClosingElement",
+        "line": 168,
+        "column": 5
+      },
+      "data": [
+        {}
+      ]
+    },
+    {
+      "type": "jsx",
+      "name": "Template",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "JsxSelfClosingElement",
+        "line": 182,
+        "column": 5
+      },
+      "data": [
+        {}
+      ]
+    },
+    {
+      "type": "jsx",
+      "name": "Template",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "JsxSelfClosingElement",
+        "line": 195,
+        "column": 5
+      },
+      "data": [
+        {}
+      ]
+    },
+    {
+      "type": "jsx",
+      "name": "Template",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "JsxSelfClosingElement",
+        "line": 208,
+        "column": 5
+      },
+      "data": [
+        {}
+      ]
+    },
+    {
+      "type": "jsx",
+      "name": "Template",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "JsxSelfClosingElement",
+        "line": 221,
+        "column": 5
+      },
+      "data": [
+        {}
+      ]
+    },
+    {
+      "type": "jsx",
+      "name": "Template",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "JsxSelfClosingElement",
+        "line": 236,
+        "column": 5
+      },
+      "data": [
+        {}
+      ]
+    },
+    {
+      "type": "jsx",
+      "name": "LuMenu",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "JsxSelfClosingElement",
+        "line": 67,
+        "column": 15
+      },
+      "data": [
+        {
+          "size": "16px",
+          "display": "block"
+        }
+      ]
+    },
+    {
+      "type": "jsx",
+      "name": "Image",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "JsxSelfClosingElement",
+        "line": 72,
+        "column": 15
+      },
+      "data": [
+        {
+          "width": 20,
+          "height": 20
+        }
+      ]
+    },
+    {
+      "type": "jsx",
+      "name": "LuSearch",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "JsxSelfClosingElement",
+        "line": 110,
+        "column": 21
+      },
+      "data": [
+        {
+          "size": "16px",
+          "display": "block"
+        }
+      ]
+    },
+    {
+      "type": "jsx",
+      "name": "LuShoppingCart",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "JsxSelfClosingElement",
+        "line": 121,
+        "column": 21
+      },
+      "data": [
+        {
+          "size": "16px",
+          "display": "block"
+        }
+      ]
+    },
+    {
+      "type": "jsx",
+      "name": "Image",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "JsxSelfClosingElement",
+        "line": 29,
+        "column": 5
+      },
+      "data": [
+        {
+          "width": 0,
+          "height": 0,
+          "objectFit": "cover"
+        }
+      ]
+    },
+    {
+      "type": "jsx",
+      "name": "ImageToggle",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "JsxOpeningElement",
+        "line": 62,
+        "column": 5
+      },
+      "data": [
+        {}
+      ]
+    },
+    {
+      "type": "jsx",
+      "name": "Template",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "JsxSelfClosingElement",
+        "line": 67,
+        "column": 17
+      },
+      "data": [
+        {}
+      ]
+    },
+    {
+      "type": "jsx",
+      "name": "LuMenu",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "JsxSelfClosingElement",
+        "line": 80,
+        "column": 11
+      },
+      "data": [
+        {
+          "size": "16px",
+          "display": "block"
+        }
+      ]
+    },
+    {
+      "type": "jsx",
+      "name": "Image",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "JsxSelfClosingElement",
+        "line": 85,
+        "column": 11
+      },
+      "data": [
+        {
+          "width": 20,
+          "height": 20
+        }
+      ]
+    },
+    {
+      "type": "jsx",
+      "name": "LuSearch",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "JsxSelfClosingElement",
+        "line": 123,
+        "column": 17
+      },
+      "data": [
+        {
+          "size": "16px",
+          "display": "block"
+        }
+      ]
+    },
+    {
+      "type": "jsx",
+      "name": "LuShoppingCart",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "JsxSelfClosingElement",
+        "line": 134,
+        "column": 17
+      },
+      "data": [
+        {
+          "size": "16px",
+          "display": "block"
+        }
+      ]
+    },
+    {
+      "type": "jsx",
+      "name": "Image",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "JsxSelfClosingElement",
+        "line": 22,
+        "column": 7
+      },
+      "data": [
+        {
+          "fill": true
+        }
+      ]
+    },
+    {
+      "type": "jsx",
+      "name": "Story",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "JsxSelfClosingElement",
+        "line": 26,
+        "column": 9
+      },
+      "data": [
+        {}
+      ]
+    },
+    {
+      "type": "jsx",
+      "name": "TmsToastProvider",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "JsxOpeningElement",
+        "line": 37,
+        "column": 3
+      },
+      "data": [
+        {}
+      ]
+    },
+    {
+      "type": "jsx",
+      "name": "TmsToastPlacements",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "JsxOpeningElement",
+        "line": 38,
+        "column": 5
+      },
+      "data": [
+        {}
+      ]
+    },
+    {
+      "type": "jsx",
+      "name": "TmsToastGroup",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "JsxOpeningElement",
+        "line": 41,
+        "column": 11
+      },
+      "data": [
+        {}
+      ]
+    },
+    {
+      "type": "jsx",
+      "name": "TmsToast",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "JsxOpeningElement",
+        "line": 44,
+        "column": 17
+      },
+      "data": [
+        {}
+      ]
+    },
+    {
+      "type": "jsx",
+      "name": "TmsToastTitle",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "JsxSelfClosingElement",
+        "line": 45,
+        "column": 19
+      },
+      "data": [
+        {}
+      ]
+    },
+    {
+      "type": "jsx",
+      "name": "TmsToastDescription",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "JsxSelfClosingElement",
+        "line": 46,
+        "column": 19
+      },
+      "data": [
+        {}
+      ]
+    },
+    {
+      "type": "jsx",
+      "name": "TmsToastCloseTrigger",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "JsxOpeningElement",
+        "line": 47,
+        "column": 19
+      },
+      "data": [
+        {}
+      ]
+    },
+    {
+      "type": "jsx",
+      "name": "ArcToastProvider",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "JsxOpeningElement",
+        "line": 60,
+        "column": 5
+      },
+      "data": [
+        {}
+      ]
+    },
+    {
+      "type": "jsx",
+      "name": "ExampleComponent",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "JsxSelfClosingElement",
+        "line": 62,
+        "column": 7
+      },
+      "data": [
+        {}
+      ]
+    },
+    {
+      "type": "jsx",
+      "name": "Template",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "JsxOpeningElement",
+        "line": 53,
+        "column": 5
+      },
+      "data": [
+        {
+          "variant": "primary"
+        }
+      ]
+    },
+    {
+      "type": "jsx",
+      "name": "Template",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "JsxOpeningElement",
+        "line": 61,
+        "column": 5
+      },
+      "data": [
+        {
+          "variant": "secondary"
+        }
+      ]
+    },
+    {
+      "type": "jsx",
+      "name": "Template",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "JsxOpeningElement",
+        "line": 69,
+        "column": 5
+      },
+      "data": [
+        {
+          "variant": "tertiary"
+        }
+      ]
+    },
+    {
+      "type": "jsx",
+      "name": "Template",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "JsxOpeningElement",
+        "line": 77,
+        "column": 5
+      },
+      "data": [
+        {
+          "variant": "accent"
+        }
+      ]
+    },
+    {
+      "type": "jsx",
+      "name": "Template",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "JsxOpeningElement",
+        "line": 85,
+        "column": 5
+      },
+      "data": [
+        {
+          "variant": "info"
+        }
+      ]
+    },
+    {
+      "type": "jsx",
+      "name": "Template",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "JsxOpeningElement",
+        "line": 93,
+        "column": 5
+      },
+      "data": [
+        {
+          "variant": "danger"
+        }
+      ]
+    },
+    {
+      "type": "jsx",
+      "name": "Template",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "JsxOpeningElement",
+        "line": 101,
+        "column": 5
+      },
+      "data": [
+        {
+          "variant": "link"
+        }
+      ]
+    },
+    {
+      "type": "jsx",
+      "name": "Template",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "JsxOpeningElement",
+        "line": 109,
+        "column": 5
+      },
+      "data": [
+        {
+          "variant": "icon"
+        }
+      ]
+    },
+    {
+      "type": "jsx",
+      "name": "Template",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "JsxOpeningElement",
+        "line": 117,
+        "column": 5
+      },
+      "data": [
+        {
+          "variant": "primary",
+          "shape": "rounded"
+        }
+      ]
+    },
+    {
+      "type": "jsx",
+      "name": "Template",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "JsxOpeningElement",
+        "line": 129,
+        "column": 5
+      },
+      "data": [
+        {
+          "variant": "secondary",
+          "shape": "rounded"
+        }
+      ]
+    },
+    {
+      "type": "jsx",
+      "name": "Template",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "JsxOpeningElement",
+        "line": 141,
+        "column": 5
+      },
+      "data": [
+        {
+          "variant": "tertiary",
+          "shape": "rounded"
+        }
+      ]
+    },
+    {
+      "type": "jsx",
+      "name": "Template",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "JsxOpeningElement",
+        "line": 153,
+        "column": 5
+      },
+      "data": [
+        {
+          "variant": "accent",
+          "shape": "rounded"
+        }
+      ]
+    },
+    {
+      "type": "jsx",
+      "name": "Template",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "JsxOpeningElement",
+        "line": 165,
+        "column": 5
+      },
+      "data": [
+        {
+          "variant": "info",
+          "shape": "rounded"
+        }
+      ]
+    },
+    {
+      "type": "jsx",
+      "name": "Template",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "JsxOpeningElement",
+        "line": 173,
+        "column": 5
+      },
+      "data": [
+        {
+          "variant": "danger",
+          "shape": "rounded"
+        }
+      ]
+    },
+    {
+      "type": "jsx",
+      "name": "Template",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "JsxOpeningElement",
+        "line": 185,
+        "column": 5
+      },
+      "data": [
+        {
+          "variant": "primary",
+          "fill": "outline"
+        }
+      ]
+    },
+    {
+      "type": "jsx",
+      "name": "Template",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "JsxOpeningElement",
+        "line": 197,
+        "column": 5
+      },
+      "data": [
+        {
+          "variant": "secondary",
+          "fill": "outline"
+        }
+      ]
+    },
+    {
+      "type": "jsx",
+      "name": "Template",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "JsxOpeningElement",
+        "line": 209,
+        "column": 5
+      },
+      "data": [
+        {
+          "variant": "tertiary",
+          "fill": "outline"
+        }
+      ]
+    },
+    {
+      "type": "jsx",
+      "name": "Template",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "JsxOpeningElement",
+        "line": 221,
+        "column": 5
+      },
+      "data": [
+        {
+          "variant": "accent",
+          "fill": "outline"
+        }
+      ]
+    },
+    {
+      "type": "jsx",
+      "name": "Template",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "JsxOpeningElement",
+        "line": 233,
+        "column": 5
+      },
+      "data": [
+        {
+          "variant": "info",
+          "fill": "outline"
+        }
+      ]
+    },
+    {
+      "type": "jsx",
+      "name": "Template",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "JsxOpeningElement",
+        "line": 241,
+        "column": 5
+      },
+      "data": [
+        {
+          "variant": "danger",
+          "fill": "outline"
+        }
+      ]
+    },
+    {
+      "type": "jsx",
+      "name": "Template",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "JsxOpeningElement",
+        "line": 253,
+        "column": 5
+      },
+      "data": [
+        {
+          "variant": "primary",
+          "shape": "rounded",
+          "fill": "outline"
+        }
+      ]
+    },
+    {
+      "type": "jsx",
+      "name": "Template",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "JsxOpeningElement",
+        "line": 266,
+        "column": 5
+      },
+      "data": [
+        {
+          "variant": "secondary",
+          "shape": "rounded",
+          "fill": "outline"
+        }
+      ]
+    },
+    {
+      "type": "jsx",
+      "name": "Template",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "JsxOpeningElement",
+        "line": 279,
+        "column": 5
+      },
+      "data": [
+        {
+          "variant": "tertiary",
+          "shape": "rounded",
+          "fill": "outline"
+        }
+      ]
+    },
+    {
+      "type": "jsx",
+      "name": "Template",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "JsxOpeningElement",
+        "line": 292,
+        "column": 5
+      },
+      "data": [
+        {
+          "variant": "accent",
+          "shape": "rounded",
+          "fill": "outline"
+        }
+      ]
+    },
+    {
+      "type": "jsx",
+      "name": "Template",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "JsxOpeningElement",
+        "line": 305,
+        "column": 5
+      },
+      "data": [
+        {
+          "variant": "info",
+          "shape": "rounded",
+          "fill": "outline"
+        }
+      ]
+    },
+    {
+      "type": "jsx",
+      "name": "Template",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "JsxOpeningElement",
+        "line": 318,
+        "column": 5
+      },
+      "data": [
+        {
+          "variant": "danger",
+          "shape": "rounded",
+          "fill": "outline"
+        }
+      ]
+    },
+    {
+      "type": "jsx",
+      "name": "Template",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "JsxOpeningElement",
+        "line": 331,
+        "column": 5
+      },
+      "data": [
+        {
+          "variant": "primary",
+          "shape": "square",
+          "fill": "outlinereverse"
+        }
+      ]
+    },
+    {
+      "type": "jsx",
+      "name": "Template",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "JsxOpeningElement",
+        "line": 344,
+        "column": 5
+      },
+      "data": [
+        {
+          "variant": "secondary",
+          "shape": "square",
+          "fill": "outlinereverse"
+        }
+      ]
+    },
+    {
+      "type": "jsx",
+      "name": "Template",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "JsxOpeningElement",
+        "line": 357,
+        "column": 5
+      },
+      "data": [
+        {
+          "variant": "tertiary",
+          "shape": "square",
+          "fill": "outlinereverse"
+        }
+      ]
+    },
+    {
+      "type": "jsx",
+      "name": "Template",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "JsxOpeningElement",
+        "line": 370,
+        "column": 5
+      },
+      "data": [
+        {
+          "variant": "accent",
+          "shape": "square",
+          "fill": "outlinereverse"
+        }
+      ]
+    },
+    {
+      "type": "jsx",
+      "name": "Template",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "JsxOpeningElement",
+        "line": 383,
+        "column": 5
+      },
+      "data": [
+        {
+          "variant": "info",
+          "shape": "square",
+          "fill": "outlinereverse"
+        }
+      ]
+    },
+    {
+      "type": "jsx",
+      "name": "Template",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "JsxOpeningElement",
+        "line": 396,
+        "column": 5
+      },
+      "data": [
+        {
+          "variant": "danger",
+          "shape": "square",
+          "fill": "outlinereverse"
+        }
+      ]
+    },
+    {
+      "type": "jsx",
+      "name": "Template",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "JsxOpeningElement",
+        "line": 409,
+        "column": 5
+      },
+      "data": [
+        {
+          "variant": "primary",
+          "shape": "rounded",
+          "fill": "outlinereverse"
+        }
+      ]
+    },
+    {
+      "type": "jsx",
+      "name": "Template",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "JsxOpeningElement",
+        "line": 422,
+        "column": 5
+      },
+      "data": [
+        {
+          "variant": "secondary",
+          "shape": "rounded",
+          "fill": "outlinereverse"
+        }
+      ]
+    },
+    {
+      "type": "jsx",
+      "name": "Template",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "JsxOpeningElement",
+        "line": 435,
+        "column": 5
+      },
+      "data": [
+        {
+          "variant": "tertiary",
+          "shape": "rounded",
+          "fill": "outlinereverse"
+        }
+      ]
+    },
+    {
+      "type": "jsx",
+      "name": "Template",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "JsxOpeningElement",
+        "line": 448,
+        "column": 5
+      },
+      "data": [
+        {
+          "variant": "accent",
+          "shape": "rounded",
+          "fill": "outlinereverse"
+        }
+      ]
+    },
+    {
+      "type": "jsx",
+      "name": "Template",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "JsxOpeningElement",
+        "line": 461,
+        "column": 5
+      },
+      "data": [
+        {
+          "variant": "info",
+          "shape": "rounded",
+          "fill": "outlinereverse"
+        }
+      ]
+    },
+    {
+      "type": "jsx",
+      "name": "Template",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "JsxOpeningElement",
+        "line": 474,
+        "column": 5
+      },
+      "data": [
+        {
+          "variant": "danger",
+          "shape": "rounded",
+          "fill": "outlinereverse"
+        }
+      ]
+    },
+    {
+      "type": "jsx",
+      "name": "Image",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "JsxSelfClosingElement",
+        "line": 110,
+        "column": 7
+      },
+      "data": [
+        {}
+      ]
+    },
+    {
+      "type": "jsx",
+      "name": "Image",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "JsxSelfClosingElement",
+        "line": 586,
+        "column": 17
+      },
+      "data": [
+        {}
+      ]
+    },
+    {
+      "type": "jsx",
+      "name": "DialogTrigger",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "JsxOpeningElement",
+        "line": 75,
+        "column": 7
+      },
+      "data": [
+        {}
+      ]
+    },
+    {
+      "type": "jsx",
+      "name": "Portal",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "JsxOpeningElement",
+        "line": 76,
+        "column": 7
+      },
+      "data": [
+        {}
+      ]
+    },
+    {
+      "type": "jsx",
+      "name": "DialogBackdrop",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "JsxSelfClosingElement",
+        "line": 77,
+        "column": 9
+      },
+      "data": [
+        {}
+      ]
+    },
+    {
+      "type": "jsx",
+      "name": "DialogContainer",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "JsxOpeningElement",
+        "line": 78,
+        "column": 9
+      },
+      "data": [
+        {}
+      ]
+    },
+    {
+      "type": "jsx",
+      "name": "DialogContent",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "JsxOpeningElement",
+        "line": 79,
+        "column": 11
+      },
+      "data": [
+        {}
+      ]
+    },
+    {
+      "type": "jsx",
+      "name": "DialogTitle",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "JsxOpeningElement",
+        "line": 80,
+        "column": 13
+      },
+      "data": [
+        {}
+      ]
+    },
+    {
+      "type": "jsx",
+      "name": "DialogDescription",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "JsxOpeningElement",
+        "line": 81,
+        "column": 13
+      },
+      "data": [
+        {}
+      ]
+    },
+    {
+      "type": "jsx",
+      "name": "DialogCloseTrigger",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "JsxOpeningElement",
+        "line": 82,
+        "column": 13
+      },
+      "data": [
+        {}
+      ]
+    },
+    {
+      "type": "jsx",
+      "name": "LuX",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "JsxSelfClosingElement",
+        "line": 107,
+        "column": 20
+      },
+      "data": [
+        {
+          "variant": "left",
+          "size": "full"
+        }
+      ]
+    },
+    {
+      "type": "jsx",
+      "name": "LuX",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "JsxSelfClosingElement",
+        "line": 168,
+        "column": 20
+      },
+      "data": [
+        {}
+      ]
+    },
+    {
+      "type": "jsx",
+      "name": "LuX",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "JsxSelfClosingElement",
+        "line": 208,
+        "column": 20
+      },
+      "data": [
+        {}
+      ]
+    },
+    {
+      "type": "jsx",
+      "name": "ControlledLeft",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "JsxSelfClosingElement",
+        "line": 129,
+        "column": 17
+      },
+      "data": [
+        {}
+      ]
+    },
+    {
+      "type": "jsx",
+      "name": "Image",
+      "box": {
+        "type": "map",
+        "value": {},
+        "node": "JsxSelfClosingElement",
+        "line": 225,
+        "column": 13
+      },
+      "data": [
+        {
+          "width": 0,
+          "height": 0
+        }
+      ]
+    }
+  ]
+}
