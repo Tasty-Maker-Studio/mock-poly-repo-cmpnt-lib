@@ -1,7 +1,7 @@
 # mock-poly-repo-cmpnt-lib
 questions regarding standalone component library in nextjs using pandacss
 
-
+Trying to solicit help for GitHub pandcss issue for building[ Library Component](https://github.com/chakra-ui/panda/discussions/1212)s
 
 ### How to us
 
@@ -45,8 +45,10 @@ add  `"@tms/design-system":"^1.017"`the following to the `package.json`, **depen
 ```
 
 **3rd Step**
-Copy the  `@tms` directory  `web-app/@tms` to the  `/node_modules` directory
-and then run the script `panda-prep` in the `web-app` directory for good measure.
+1. Copy the  `@tms` directory  `web-app/@tms` to the  `/node_modules` directory
+2. Copy the `dist` directory from `design-system` to the `web-app/node_modules/@tms/design-system` directory
+3. Copy the `src` directory from `design-system` to the `web-app/node_modules/@tms/design-system` directory ( just to get the last code)
+4. n the script `panda-prep` in the `web-app`  to create the `styled-system` directory for good measure. 
 
 ```
 $> pnpm  panda-prep
