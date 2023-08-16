@@ -1,14 +1,15 @@
-'use client';
+
+'use client'
 
 import React, { useState } from 'react';
 import { css } from '@tms/styled-system/css';
 import { Box, Flex } from '@tms/styled-system/jsx';
 
-export type ImageRevealType = {
+type  ImageToggleProps = {
   children: React.ReactNode;
 };
 /** This component provide a way to shuffle between to image on a mouse enter  */
-const ImageToggle= (props:ImageRevealType) => {
+const ImageToggle = (props:ImageToggleProps) => {
     const [isShowing, setIsShowing] = useState(true);
     const handleMouseEvent = () => {
         setIsShowing(!isShowing);
@@ -60,4 +61,4 @@ const ImageToggle= (props:ImageRevealType) => {
 };
 
 
-export { ImageToggle };
+export { ImageToggle, type ImageToggleProps };

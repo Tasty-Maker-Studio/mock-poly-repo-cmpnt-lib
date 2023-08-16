@@ -4,16 +4,15 @@
   "author": "tms",
   "license": "MIT",
   "private": false,
-  "main": "dist/index.js",
-  "module": "dist/index.mjs",
+  "main": "./dist/index.mjs",
   "types": "dist/index.d.ts",
   "scripts": {
     "start": "pnpm watch",
     "dev": "storybook dev  -p 6006",
     "dev:rebuild": "pnpm prepare && pnpm build && pnpm dev ",
     "watch": "chokidar './src/**/*' -e 'add' -c 'pnpm run build:dev'  --throttle 2000",
-    "build": "tsup ./src/index.ts --format cjs,esm --dts  --external @tms/styled-system   && pnpm ship",
-    "build:dev": "NODE_ENV=development  tsup ./src/index.ts   --format cjs,esm --clean --dts --external @tms/styled-system   && pnpm ship",
+    "build": "tsup --external @tms/styled-system   && pnpm ship",
+    "build:dev": "NODE_ENV=development  tsup --external @tms/styled-system    && pnpm ship",
     "clean": "rm -rf node_modules && pnpm clear:build && pnpm clean:build:dev",
     "test": "pnpm  test --passWithNoTests",
     "lint": "eslint \"./**/*.{js,jsx,ts,tsx,json}\"",
@@ -57,14 +56,17 @@
   ],
   "dependencies": {
     "@ark-ui/react": "^0.9.0",
-    "next": "^13.4.10"
+    "next": "^13.4.16",
+    "@pandacss/dev": "^0.11.0",
+    "@pandacss/types": "^0.11.0",
+    "@pandacss/preset-panda": "^0.11.0"
   },
   "devDependencies": {
     "@babel/core": "^7.22.6",
     "@ianvs/prettier-plugin-sort-imports": "^3.7.2",
-    "@pandacss/dev": "^0.9.0",
-    "@pandacss/types": "^0.9.0",
-    "@pandacss/preset-panda": "^0.9.0",
+    "@pandacss/dev": "^0.11.0",
+    "@pandacss/types": "^0.11.0",
+    "@pandacss/preset-panda": "^0.11.0",
     "@rollup/plugin-babel": "^5.3.1",
     "@size-limit/preset-small-lib": "^8.2.4",
     "@storybook/addon-actions": "^7.0.26",
@@ -76,6 +78,7 @@
     "@storybook/nextjs": "^7.0.26",
     "@storybook/react": "^7.0.26",
     "@storybook/testing-library": "^0.0.14-next.2",
+    "@types/node": "^20.5.0",
     "@types/react": "^18.2.6",
     "@types/react-dom": "^18.2.4",
     "@typescript-eslint/eslint-plugin": "^5.59.6",
@@ -85,7 +88,7 @@
     "eslint": "^8.40.0",
     "eslint-plugin-react": "^7.32.2",
     "lint-staged": "^13.2.2",
-    "next": "^13.4.10",
+    "next": "^13.4.16",
     "postcss": "^8.4.23",
     "prettier": "^2.8.0",
     "react": "^18.2.0",
@@ -97,5 +100,44 @@
     "tslib": "^2.5.0",
     "tsup": "^6.7.0",
     "typescript": "^5.0.4"
+  },
+  "exports": {
+    "./package.json": "./package.json",
+    ".": {
+      "import": "./dist/index.mjs",
+      "types": "./dist/index.d.ts"
+    },
+    "./ImageToggle": {
+      "import": "./dist/ImageToggle/index.mjs",
+      "types": "./dist/ImageToggle/index.d.ts"
+    },
+    "./SplashSection": {
+      "import": "./dist/SplashSection/index.mjs",
+      "types": "./dist/SplashSection/index.d.ts"
+    },
+    "./Button": {
+      "import": "./dist/Button/index.mjs",
+      "types": "./dist/Button/index.d.ts"
+    },
+    "./Text": {
+      "import": "./dist/Text/index.mjs",
+      "types": "./dist/Text/index.d.ts"
+    }
+  },
+  "typesVersions": {
+    "*": {
+      "ImageToggle": [
+        "dist/ImageToggle/index.d.ts"
+      ],
+      "SplashSection": [
+        "dist/SplashSection/index.d.ts"
+      ],
+      "Button": [
+        "dist/Button/index.d.ts"
+      ],
+      "Text": [
+        "dist/Text/index.d.ts"
+      ]
+    }
   }
 }

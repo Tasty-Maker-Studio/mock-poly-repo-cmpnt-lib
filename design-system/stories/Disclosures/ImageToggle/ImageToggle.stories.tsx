@@ -4,9 +4,9 @@ import type { Meta, StoryObj } from '@storybook/react';
 import { css } from '@tms/styled-system/css';
 import { Box, Center } from '@tms/styled-system/jsx';
 import {
-  ImageRevealType,
+  ImageToggleProps,
   ImageToggle
-} from '../../../src/components/Disclosure/ImageToggle';
+} from '../../../src/ImageToggle/ImageToggle';
 
 type ImageSrc = {
   imgSrc: string;
@@ -54,7 +54,7 @@ const meta = {
 type Story = StoryObj<typeof ImageToggle>;
 
 // More on component templates: https://storybook.js.org/docs/react/writing-stories/introduction#using-args
-const Template = (props: ImageRevealType) => (
+const Template = (props: ImageToggleProps) => (
   <Box w={'500px'}>
     <ImageToggle>{props.children}</ImageToggle>
   </Box>

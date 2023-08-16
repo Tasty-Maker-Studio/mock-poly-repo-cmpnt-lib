@@ -1,7 +1,7 @@
 import { defineConfig } from '@pandacss/dev';
 import pandaPreset from '@pandacss/preset-panda';
 
-import { tmsPandaPreset } from './src/theme/tms-panda-preset';
+import { tmsPandaPreset } from './src/theme/tms-panda-preset'
 
 export default defineConfig({
   // Whether to use css reset
