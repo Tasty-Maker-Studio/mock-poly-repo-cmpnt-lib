@@ -1,7 +1,7 @@
 import React from 'react';
 import { Box } from '@tms/styled-system/jsx';
 
-import { Text } from '../../Typography/Text';
+import { Text } from '../Text/Text';
 
 // Merging div props with SplashSectionProps
 type SplashSectionProps = {

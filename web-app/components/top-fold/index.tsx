@@ -1,11 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import {
-    Button,
-    SplashSection,
-} from '../design-system';
-
-
+import {Button } from '@tms/design-system/Button'
+import {SplashSection} from '@tms/design-system/SplashSection';
 const getImageNode = (imgSrc: string, altText: string) => {
     return (
         <Image

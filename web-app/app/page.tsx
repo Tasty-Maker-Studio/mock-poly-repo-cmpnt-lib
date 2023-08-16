@@ -1,5 +1,6 @@
-import { Box } from '@tms/styled-system/jsx';
+import { VStack } from '@tms/styled-system/jsx';
 import { TopFold } from '../components/top-fold';
+import { ImageBar } from '../components/image-bar';
 
 export const runtime = 'edge';
 
@@ -12,8 +13,9 @@ export const metadata = {
 
 export default async function HomePage() {
   return (
-      <Box>
+      <VStack>
         <TopFold />
-      </Box>
+        <ImageBar />
+      </VStack>
   );
 }

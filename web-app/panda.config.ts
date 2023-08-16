@@ -1,7 +1,7 @@
 import { defineConfig } from "@pandacss/dev";
 import pandaPreset from "@pandacss/preset-panda";
 // you need to separate the preset from the components othewise esbuild & panda get confused
-import { tmsPandaPreset } from "@tms/design-system/src/theme/tms-panda-preset"
+import { tmsPandaPreset } from "@tms/design-system"
 
 export default defineConfig({
   // Whether to include css reset styles in the generated css.

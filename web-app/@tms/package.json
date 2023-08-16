@@ -106,37 +106,21 @@
     ".": {
       "import": "./dist/index.mjs",
       "types": "./dist/index.d.ts"
-    },
-    "./ImageToggle": {
-      "import": "./dist/ImageToggle/index.mjs",
-      "types": "./dist/ImageToggle/index.d.ts"
-    },
-    "./SplashSection": {
-      "import": "./dist/SplashSection/index.mjs",
-      "types": "./dist/SplashSection/index.d.ts"
-    },
-    "./Button": {
-      "import": "./dist/Button/index.mjs",
-      "types": "./dist/Button/index.d.ts"
-    },
-    "./Text": {
-      "import": "./dist/Text/index.mjs",
-      "types": "./dist/Text/index.d.ts"
     }
   },
   "typesVersions": {
     "*": {
-      "ImageToggle": [
+      "Text": [
+        "dist/Text.d.ts"
+      ],
+      "ImageToggle/index": [
         "dist/ImageToggle/index.d.ts"
       ],
-      "SplashSection": [
+      "SplashSection/index": [
         "dist/SplashSection/index.d.ts"
       ],
-      "Button": [
+      "Button/index": [
         "dist/Button/index.d.ts"
-      ],
-      "Text": [
-        "dist/Text/index.d.ts"
       ]
     }
   }

@@ -7,6 +7,10 @@ module.exports = {
         protocol: 'https',
         hostname: 'burst.shopifycdn.com',
       },
+      {
+        protocol: 'https',
+        hostname: 'images.unsplash.com',
+      },
     ]
   }
 };
